@@ -13,7 +13,7 @@ import {
   Loader2,
 } from "lucide-react";
 
-const API = "http://localhost:3000";
+const API = "https://seo-blog-post-creation-tool-dackend.onrender.com";
 
 export default function BlogView() {
   const { id } = useParams();
@@ -171,3 +171,4 @@ export default function BlogView() {
     </div>
   );
 }
+
