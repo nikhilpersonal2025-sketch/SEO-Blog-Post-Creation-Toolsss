@@ -11,7 +11,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 
-const API = "http://localhost:3000";
+const API = "https://seo-blog-post-creation-tool-dackend.onrender.com";
 
 export default function SEOGeneration() {
   const { state } = useLocation();
